@@ -166,5 +166,5 @@ async def jelentes(ctx, member:discord.Member, message):
     await author.send(embed=embed)
     await member.send(embed=embed2)
 
-
-client.run('OTAxMTU5MTU4NjQ3MjMwNDc1.YXLz3g.0_0FU5eiM4WcMl75r3zDHE9mEZY')
+TOKEN = 'OTAxMTU5MTU4NjQ3MjMwNDc1.YXLz3g.0_0FU5eiM4WcMl75r3zDHE9mEZY'
+client.run(process.env.token)
